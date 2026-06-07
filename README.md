@@ -1,4 +1,4 @@
-# Portal Dash Website
+# Portal Dash Site
 
 Static website for [portaldash.com](https://portaldash.com), hosted on GitHub Pages.
 
