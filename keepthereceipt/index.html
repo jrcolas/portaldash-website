@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Keep the Receipt — track purchase return deadlines and get reminders before it's too late.">
+  <title>Keep the Receipt — Portal Dash</title>
+  <script src="/js/theme.js"></script>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="/">Portal Dash</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Apps</a>
+        <a href="/keepthereceipt/privacy/">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Apps</a> / Keep the Receipt
+    </nav>
+
+    <section class="app-hero">
+      <img
+        class="app-hero__icon"
+        src="/assets/keep-the-receipt-icon.png"
+        alt="Keep the Receipt app icon"
+        width="96"
+        height="96"
+      >
+      <div>
+        <h1>Keep the Receipt</h1>
+        <p class="app-hero__tagline">
+          Never lose money on a purchase you meant to return.
+        </p>
+      </div>
+    </section>
+
+    <article class="content-card">
+      <p>
+        Keep the Receipt helps you track what you bought, where you bought it, and when the
+        return window closes — so you're not scrambling to find a receipt or guessing the deadline.
+      </p>
+
+      <h2>Features</h2>
+      <ul class="feature-list">
+        <li>Log items with store name, product, return-by date, and optional purchase date</li>
+        <li>See how many days you have left on active items</li>
+        <li>Return reminders around 9:00 AM so you can decide in time</li>
+        <li>Organize items as Active, Kept, or Returned</li>
+        <li>Mark items returned or kept from notifications</li>
+        <li>Export and import your entries as JSON across devices</li>
+      </ul>
+
+      <h2>Subscription</h2>
+      <p>
+        Keep the Receipt requires a subscription after a 14-day free trial. After the trial,
+        the app is $1.99/month. Cancel anytime in the App Store or Google Play before the trial
+        ends to avoid being charged.
+      </p>
+
+      <div class="store-links">
+        <span class="button button--disabled" aria-disabled="true">App Store — coming soon</span>
+        <span class="button button--disabled" aria-disabled="true">Google Play — coming soon</span>
+        <a class="button button--secondary" href="/keepthereceipt/privacy/">Privacy Policy</a>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer page">
+    <p>&copy; <span id="year"></span> PortalDash LLC. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
