@@ -31,7 +31,7 @@
       <p><strong>Keep the Receipt</strong><br>PortalDash LLC</p>
       <p>
         Effective Date: <time datetime="2026-06-06">June 6, 2026</time><br>
-        Last Updated: <time datetime="2026-06-06">June 6, 2026</time>
+        Last Updated: <time datetime="2026-10-06">October 6, 2026</time>
       </p>
 
       <p>
@@ -52,112 +52,168 @@
       <ul>
         <li>Product names, purchase dates, purchase prices, and store names you enter to track return windows.</li>
         <li>Return deadline dates and any custom notes you add to an entry.</li>
-        <li>Exported or imported data files when using the import/export feature (available to premium subscribers).</li>
+        <li>Receipt photos you capture or choose from your photo library when itemizing a purchase (optional).</li>
+        <li>Exported or imported data files when using the backup export/import feature (available to KeepTheReceipt Premium subscribers).</li>
       </ul>
 
+      <h3>Receipt Photos and Premium Auto-Itemize</h3>
+      <p>
+        Receipt images you attach are used to display the receipt in the App and to help you enter product lines.
+        On <strong>iOS</strong>, if you subscribe to Premium and use auto-itemize, the App may perform optical
+        character recognition (OCR) on your device and send receipt image data and/or extracted text to
+        <strong>Google's Gemini API</strong> to suggest product line items. We do not use receipt content for
+        advertising. Premium auto-itemize via Gemini is an iOS feature; availability on Android may differ by version.
+      </p>
+      <p>
+        Do not upload receipts containing information you do not want processed by third-party AI services when
+        using Premium auto-itemize on iOS.
+      </p>
+
       <h3>Information Collected Automatically</h3>
-      <p>We may collect certain technical information automatically when you use the App, including:</p>
+      <p>We and our service providers may collect certain technical information automatically when you use the App, including:</p>
       <ul>
         <li>Device type, operating system version, and app version.</li>
-        <li>Crash logs and diagnostic data to help us identify and fix bugs.</li>
-        <li>Anonymous usage analytics (e.g., which features are used most frequently) to improve the App.</li>
+        <li>Anonymous usage analytics (for example, which screens or features are used) to improve the App. Our analytics do not include the text of your entries, receipt photos, or how many items you store.</li>
+        <li>On <strong>Android</strong>, crash logs and diagnostic data via Firebase Crashlytics to help identify and fix bugs.</li>
+        <li>On <strong>iOS</strong>, we currently use Firebase Analytics only; we do not enable Firebase Crashlytics in the iOS App.</li>
+        <li>Advertising-related identifiers and interaction data when you use the free (non-Premium) version of the App, as described in Section 5.</li>
       </ul>
 
       <h3>Payment Information</h3>
       <p>
         If you subscribe to KeepTheReceipt Premium, all payment transactions are processed entirely
         by Apple (App Store) or Google (Google Play). We do not collect, store, or have access to
-        your payment card numbers or billing details. Please review Apple's and Google's privacy
+        your payment card numbers or billing details. Apple and Google provide us with subscription
+        status information needed to unlock Premium features. Please review
+        <a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer">Apple's</a> and
+        <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google's</a> privacy
         policies for information on how they handle payment data.
       </p>
 
       <h2>2. How We Use Your Information</h2>
       <p>We use the information we collect to:</p>
       <ul>
-        <li>Provide, operate, and maintain the core features of the App, including storing your return deadline entries and sending reminder notifications.</li>
-        <li>Process and manage your premium subscription status.</li>
-        <li>Diagnose crashes, fix bugs, and improve App performance.</li>
-        <li>Analyze anonymous, aggregated usage data to understand how users interact with the App and guide future improvements.</li>
+        <li>Provide, operate, and maintain the core features of the App, including storing your return deadline entries and scheduling return reminder notifications on your device.</li>
+        <li>Verify and manage your Premium subscription status through Apple or Google.</li>
+        <li>Offer Premium features such as ad-free use, backup export/import, and (on iOS) receipt auto-itemize.</li>
+        <li>Display advertising in the free version of the App and measure ad delivery and performance.</li>
+        <li>Diagnose crashes (Android), fix bugs, and improve App performance.</li>
+        <li>Analyze anonymous usage data to understand how users interact with the App and guide future improvements.</li>
         <li>Respond to your support requests or inquiries.</li>
         <li>Comply with applicable legal obligations.</li>
       </ul>
 
       <h2>3. Data Storage and Security</h2>
       <p>
-        Your product entries and return deadline data are stored locally on your device. We do not
-        transmit your personal product entries to our servers in the standard course of app operation.
+        Your product entries, return deadlines, and receipt images associated with entries are stored
+        <strong>locally on your device</strong> unless you explicitly export them. We do not operate a
+        cloud account that stores your entry list on our servers in the normal course of using the App.
         If cloud backup or sync features are introduced in a future version, this policy will be
-        updated accordingly before such features are released.
+        updated before such features are released.
       </p>
       <p>
-        Crash logs and anonymous analytics data may be transmitted to third-party service providers
-        (see Section 4) for processing. We take reasonable technical and organizational measures to
-        protect your information against unauthorized access, alteration, or disclosure. However,
-        no method of transmission or storage is 100% secure, and we cannot guarantee absolute security.
+        Analytics, crash (Android), advertising, and Premium auto-itemize (iOS/Gemini) data may be
+        transmitted to third-party service providers as described in Section 4. We take reasonable
+        technical and organizational measures to protect your information against unauthorized access,
+        alteration, or disclosure. However, no method of transmission or storage is 100% secure, and
+        we cannot guarantee absolute security.
       </p>
 
       <h2>4. Third-Party Service Providers</h2>
       <p>
-        We may use third-party services that collect data on our behalf for the purposes of analytics
-        and crash reporting. These providers are contractually obligated to handle your data only as
-        directed by us and in accordance with applicable law. Examples may include:
+        We use third-party services that may collect or process data on our behalf or when you interact
+        with their features. These providers handle data under their own privacy policies and applicable
+        law. Examples include:
       </p>
       <ul>
-        <li>Apple App Store / Google Play — subscription and payment processing.</li>
-        <li>Crash reporting tools (e.g., Firebase Crashlytics) — anonymous crash and diagnostic data.</li>
-        <li>Analytics platforms — anonymous, aggregated usage statistics.</li>
+        <li><strong>Apple App Store / Google Play</strong> — subscription and payment processing.</li>
+        <li><strong>Google Firebase Analytics</strong> — anonymous usage events (you can turn off analytics in the App's Settings on both platforms).</li>
+        <li><strong>Google Firebase Crashlytics (Android only)</strong> — crash and diagnostic reports.</li>
+        <li><strong>Unity LevelPlay</strong> — ad mediation and delivery in the free version of the App. LevelPlay and its advertising partners (such as Unity Ads and other networks enabled in our mediation setup) may collect device and advertising identifiers, ad interaction data, and similar technical data to show and measure ads. Premium subscribers do not see in-app ads from this SDK.</li>
+        <li><strong>Google Gemini API (iOS Premium auto-itemize)</strong> — receipt image and/or OCR text sent when you choose auto-itemize, to return suggested product lines.</li>
       </ul>
       <p>
         We do not sell, rent, or trade your personal information to third parties for their own
         marketing purposes.
       </p>
-
-      <h2>5. Notifications</h2>
       <p>
-        The App uses push notifications to remind you of upcoming or expiring return windows.
-        Notification delivery is handled by your device's operating system (Apple Push Notification
-        Service or Firebase Cloud Messaging). You can disable notifications at any time through your
-        device's system settings. Disabling notifications will not delete your data but will prevent
-        return deadline reminders from appearing.
+        For more detail, see the privacy policies of
+        <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">Firebase</a>,
+        <a href="https://unity.com/legal/privacy-policy" rel="noopener noreferrer">Unity</a>, and
+        <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google</a> (including Gemini).
       </p>
 
-      <h2>6. Children's Privacy</h2>
+      <h2>5. Advertising and Tracking</h2>
+      <p>
+        The free version of the App displays banner and interstitial advertisements through Unity LevelPlay.
+        Premium removes these ads.
+      </p>
+      <p>
+        On <strong>iOS</strong>, the App may ask for permission to track you across other companies' apps
+        and websites using Apple's App Tracking Transparency (ATT) framework. If you allow tracking, advertising
+        partners may use your device's advertising identifier (IDFA) for personalized ads and attribution.
+        If you deny tracking, ads may still appear but may be less relevant. You can change your choice anytime
+        in <strong>Settings → Privacy &amp; Security → Tracking</strong> on your iPhone or iPad.
+      </p>
+      <p>
+        On <strong>Android</strong>, advertising partners may use your device's advertising ID (GAID) or similar
+        identifiers subject to your device and Google Play settings. You can reset or limit ad personalization
+        in your device's Google account or advertising settings where available.
+      </p>
+      <p>
+        Ad partners may use data for cross-app advertising measurement in line with their policies and platform
+        rules. We do not use your manually entered purchase entries or local receipt library for ad targeting.
+      </p>
+
+      <h2>6. Notifications</h2>
+      <p>
+        The App schedules <strong>local</strong> notifications on your device to remind you of upcoming or
+        expiring return windows. Reminders are not sent from PortalDash servers and do not require a push
+        notification account with us. On iOS, notifications use Apple’s User Notifications framework; on
+        Android, they use the system notification service and alarms scheduled on your device.
+      </p>
+      <p>
+        You can disable notifications at any time through the App's settings or your device's system settings.
+        Disabling notifications will not delete your data but will prevent return deadline reminders from appearing.
+      </p>
+
+      <h2>7. Children's Privacy</h2>
       <p>
         The App is not directed at children under the age of 13. We do not knowingly collect personal
         information from children under 13. If you believe a child under 13 has provided us with
         personal information, please contact us at the address below and we will promptly delete it.
       </p>
 
-      <h2>7. Your Rights and Choices</h2>
+      <h2>8. Your Rights and Choices</h2>
       <p>Depending on your location, you may have the following rights regarding your personal data:</p>
       <ul>
         <li><strong>Access</strong> — You may request a copy of the personal data we hold about you.</li>
-        <li><strong>Deletion</strong> — You may request that we delete your personal data. Because your product entries are stored locally on your device, you can delete all data at any time by uninstalling the App.</li>
+        <li><strong>Deletion</strong> — You may request that we delete your personal data. Because your product entries are stored locally on your device, you can delete all data at any time by deleting entries in the App or uninstalling the App.</li>
         <li><strong>Correction</strong> — You may correct inaccurate data directly within the App at any time.</li>
-        <li><strong>Opt-out of analytics</strong> — You may opt out of anonymous analytics data collection through the App's settings (where available).</li>
-        <li><strong>California residents (CCPA)</strong> — You have the right to know, delete, and opt out of the sale of personal information. We do not sell personal information.</li>
-        <li><strong>EEA/UK residents (GDPR)</strong> — You may have additional rights including data portability and the right to restrict processing. Contact us to exercise these rights.</li>
+        <li><strong>Opt-out of analytics</strong> — You may turn off anonymous Firebase Analytics collection in the App's Settings.</li>
+        <li><strong>Advertising choices</strong> — Use iOS Tracking settings or Android advertising settings as described in Section 5, or subscribe to Premium for an ad-free experience.</li>
+        <li><strong>California residents (CCPA/CPRA)</strong> — You have the right to know, delete, and opt out of the "sale" or "sharing" of personal information as defined by California law. We do not sell personal information for money. Some advertising measurement may be considered "sharing" under California law; you can limit tracking as described above.</li>
+        <li><strong>EEA/UK residents (GDPR)</strong> — You may have additional rights including data portability and the right to restrict processing. Contact us to exercise these rights. Where we rely on consent (for example, optional tracking on iOS), you may withdraw consent through device settings.</li>
       </ul>
 
-      <h2>8. Data Retention</h2>
+      <h2>9. Data Retention</h2>
       <p>
-        Since your product entry data is stored locally on your device, it is retained until you delete
-        individual entries within the App or uninstall the App entirely. Crash logs and anonymous
-        analytics data retained by third-party providers are governed by their respective retention
-        policies. We do not retain identifiable personal data on our servers beyond what is necessary
-        to fulfill the purposes described in this policy.
+        Your entry data on device is retained until you delete individual entries or uninstall the App.
+        Analytics, crash (Android), and advertising data retained by third-party providers are governed
+        by their respective retention policies. We do not maintain a server-side copy of your entry list
+        as part of normal App use.
       </p>
 
-      <h2>9. Changes to This Privacy Policy</h2>
+      <h2>10. Changes to This Privacy Policy</h2>
       <p>
         We may update this Privacy Policy from time to time to reflect changes in our practices,
         technology, legal requirements, or other factors. When we make material changes, we will update
         the "Last Updated" date at the top of this policy and, where appropriate, notify you through
-        the App or via the App Store listing. Your continued use of the App after any changes
+        the App or via the App Store or Google Play listing. Your continued use of the App after any changes
         constitutes your acceptance of the updated policy.
       </p>
 
-      <h2>10. Contact Us</h2>
+      <h2>11. Contact Us</h2>
       <p>
         If you have any questions, concerns, or requests regarding this Privacy Policy or our data
         practices, please contact us:
@@ -169,7 +225,7 @@
       </p>
 
       <p>
-        This Privacy Policy was last updated on <time datetime="2026-06-06">June 6, 2026</time>
+        This Privacy Policy was last updated on <time datetime="2026-10-06">October 6, 2026</time>
         and applies to all versions of the KeepTheReceipt application published by PortalDash LLC.
       </p>
     </article>
