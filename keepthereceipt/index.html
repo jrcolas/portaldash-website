@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Keep the Receipt — track purchase return deadlines and get reminders before it's too late.">
+  <meta name="description" content="Keep the Receipt — track return deadlines, get reminders, and optional Premium for ad-free use, backups, and receipt auto-itemize on iPhone.">
   <title>Keep the Receipt — Portal Dash</title>
   <script src="/js/theme.js"></script>
   <link rel="stylesheet" href="/css/style.css">
@@ -35,7 +35,7 @@
       <div>
         <h1>Keep the Receipt</h1>
         <p class="app-hero__tagline">
-          Never lose money on a purchase you meant to return.
+          Know your return deadlines before the window closes.
         </p>
       </div>
     </section>
@@ -43,47 +43,57 @@
     <article class="content-card">
       <p>
         Keep the Receipt helps you track what you bought, where you bought it, and when the
-        return window closes — so you're not scrambling to find a receipt or guessing the deadline.
+        return window ends. Add a product, set its return-by date, and see every deadline in one list.
+        Local reminders fire before time runs out so you can keep the item or return it on time.
+      </p>
+      <p>
+        Your entries stay on your device unless you export them. No cloud account is required for the
+        core experience.
       </p>
 
-      <h2>Features</h2>
+      <h2>Free to use</h2>
       <ul class="feature-list">
-        <li>Log items with store name, product, return-by date, and optional purchase date</li>
-        <li>See how many days you have left on active items</li>
-        <li>Return reminders around 9:00 AM so you can decide in time</li>
+        <li>Log items with store name, products, return-by date, and optional purchase date</li>
+        <li>Attach receipt photos and itemize product lines (manual entry)</li>
+        <li>See days remaining on active return windows</li>
+        <li>Return reminders around 9:00 AM in your time zone</li>
         <li>Organize items as Active, Kept, or Returned</li>
-        <li>Mark items returned or kept from notifications</li>
-        <li>Export and import your entries as JSON across devices</li>
+        <li>Mark items kept or returned from notifications</li>
+        <li>Light, dark, or system appearance</li>
+        <li>Optional anonymous usage analytics (you can turn this off in Settings)</li>
       </ul>
-
-      <h2>Subscription</h2>
       <p>
-        Keep the Receipt requires a subscription after a 14-day free trial. After the trial,
-        the app is $1.99/month. Cancel anytime in the App Store or Google Play before the trial
-        ends to avoid being charged.
+        The free version includes ads. You can upgrade to Premium anytime for an ad-free experience
+        and extra tools.
+      </p>
+
+      <h2>Premium</h2>
+      <p>
+        Premium is an optional auto-renewing subscription (monthly or yearly — prices shown in the
+        App Store or Google Play). It unlocks:
+      </p>
+      <ul class="feature-list">
+        <li><strong>Ad-free</strong> use of the app</li>
+        <li><strong>Export and import</strong> your entries as JSON for backup or moving devices</li>
+        <li><strong>Auto-itemize from receipt photos</strong> on iPhone (AI-assisted line items — review before saving)</li>
+      </ul>
+      <p>
+        Subscriptions renew automatically unless cancelled at least 24 hours before the end of the
+        current period. Manage or cancel in your device’s store account settings (Apple ID
+        Subscriptions on iOS; Google Play subscriptions on Android). Payment is processed entirely by
+        Apple or Google; PortalDash does not store your card details.
+      </p>
+
+      <h2>Privacy</h2>
+      <p>
+        We use Firebase Analytics (optional), advertising in the free tier, and on iPhone Premium
+        auto-itemize may send receipt data to Google’s Gemini API. See our
+        <a href="/keepthereceipt/privacy/">Privacy Policy</a> for full details.
       </p>
 
       <div class="store-links">
-        <span class="button button--disabled" aria-disabled="true">
-          <svg class="button__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.4C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
-          </svg>
-           App Store — coming soon
-        </span>
-        <a
-          class="button button--primary"
-          href="https://play.google.com/store/apps/details?id=com.portaldash.keepthereceipt"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <svg class="button__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24">
-            <path fill="#FFD900" d="M1.577 1.077a1 1 0 0 0-.674.949v20.042a1 1 0 0 0 1.448.894l11.01-6.2-11.784-15.685z"/>
-            <path fill="#F43249" d="M22.233 10.816 13.616 6.18l-2.55 3.232 4.655 4.655 6.512-3.251z"/>
-            <path fill="#00EE76" d="M1.577 1.077 11.05 12.293l2.566-3.258L2.673.382a1 1 0 0 0-1.096-.305z"/>
-            <path fill="#00D3FF" d="M1.577 22.923a1 1 0 0 0 1.448.894l9.076-5.116-2.573-3.265-7.951 7.487z"/>
-          </svg>
-           Google Play
-        </a>
+        <span class="button button--disabled" aria-disabled="true">App Store — coming soon</span>
+        <span class="button button--disabled" aria-disabled="true">Google Play — coming soon</span>
         <a class="button button--secondary" href="/keepthereceipt/privacy/">Privacy Policy</a>
       </div>
     </article>

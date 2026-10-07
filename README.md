@@ -1,4 +1,4 @@
-# Portal Dash Site
+# Portal Dash Website
 
 Static website for [portaldash.com](https://portaldash.com), hosted on GitHub Pages.
 
@@ -43,9 +43,9 @@ The `CNAME` file in this repo tells GitHub Pages to use `portaldash.com`.
 
 - **App list:** edit `index.html`
 - **Keep the Receipt page:** edit `keepthereceipt/index.html`
-- **Privacy policy:** replace the placeholder in `keepthereceipt/privacy/index.html`
+- **Privacy policy:** edit `keepthereceipt/privacy/index.html`
 - **Store links:** update the App Store / Google Play buttons on the app page when listings are live
-- **Theme:** header button cycles System → Light → Dark (default is System, following OS/browser preference). Choice is saved in `localStorage`.
+- **Theme:** header sun/moon button toggles Light ↔ Dark (first visit follows system until you choose). Choice is saved in `localStorage`.
 
 ## Project structure
 
